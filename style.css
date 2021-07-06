@@ -14,10 +14,12 @@ section{
 .orange{
     color: orange;
 }
-h1{
+.header-text{
    font-size: 50px;
    display: block;
    font-weight: 700;
+   margin: 0;
+   padding: 0px;
 }
 .link-transfer{
     text-decoration: none;
@@ -25,8 +27,9 @@ h1{
     padding: 10px 30px;
     color: white;
     border-radius: 20px;
+
 }
-.about-owner{
+.about-area{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -35,13 +38,25 @@ h1{
 }
 #about-img{
     margin-left: 100px;
+    margin-top: 40px;
 }
-#identity{
-    text-align:left;
-    
+
+h1{
+    font-size: 40px;
+}
+#about-me{
+    text-align: center;
+    margin-top: 140px;
 }
 #description{
     text-align: justify;
-    padding-left: 100px;
-    padding: 30px;
+    margin-left: 240px;
+}
+#contact-me{
+    margin-left: 240px;
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 20px;
 }
